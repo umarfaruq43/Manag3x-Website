@@ -7,7 +7,7 @@ import Overview from "./pages/Overview";
 import Finance from "./pages/Finance/Finance";
 import Income from "./pages/Finance/Income";
 import Statement from "./pages/Finance/Statement";
-import Inventory from "./pages/Inventory";
+import Inventory from "./pages/Inventory/Inventory";
 import Settings from "./pages/Settings";
 import Logistics from "./pages/Logistics";
 

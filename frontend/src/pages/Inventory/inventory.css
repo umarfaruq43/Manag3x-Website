@@ -1,0 +1,116 @@
+:root {
+  --blue: #172938;
+  --red: red;
+  --white: white;
+  --line: #f6f5f5;
+}
+.equal {
+  display: flex;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  margin-left: 70px;
+  padding: 0 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+nav ul li img {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.nav_link span {
+  margin-left: 1rem;
+}
+
+/* Nav styles end  */
+/* *{
+  border: 1px solid red;
+} */
+.reminder {
+  width: 100%;
+  background-color: var(--white);
+  height: 200px;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.table {
+  margin: 3rem 0;
+}
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  border-radius: 1rem;
+}
+thead {
+  background-color: var(--blue);
+  border-radius: 7px;
+}
+tbody {
+  background-color: #fff;
+  height: 50vh;
+  width: 100%;
+}
+th {
+  border: collapse;
+  padding: 1rem 0.9rem;
+  color: var(--white);
+}
+td {
+  padding: 0.5rem 0.9rem;
+  color: #172938;
+  font-weight: bold;
+}
+
+tr {
+  border-bottom: 1px solid var(--line);
+}
+tbody tr:last-child {
+  border-radius: 2rem;
+}
+.bg{
+  background-color: #fff;
+  width: 100%;
+}
+.user {
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+}
+.name {
+  margin-left: 0.9rem;
+}
+.bend-left {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.bend-right {
+  border-radius: 0px 10px 10px 0px;
+}
+.emptyData{
+  
+}
